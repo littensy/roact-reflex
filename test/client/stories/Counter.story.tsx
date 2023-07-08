@@ -1,6 +1,5 @@
+import { ReflexProvider, useSelector } from "@rbxts/react-reflex";
 import Roact from "@rbxts/roact";
-import { withHookDetection } from "@rbxts/roact-hooked";
-import { ReflexProvider, useSelector } from "@rbxts/roact-reflex";
 import { useAppProducer } from "../hooks/use-app-producer";
 import { producer } from "../producer";
 import { selectClientCount } from "../producer/counter.producer";
@@ -25,8 +24,6 @@ function Counter() {
 }
 
 export = (target: Frame) => {
-	withHookDetection(Roact);
-
 	const tree = Roact.mount(
 		<ReflexProvider producer={producer} initialState={{ counter: { count: 5 } }}>
 			<Counter />

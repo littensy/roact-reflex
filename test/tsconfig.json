@@ -19,7 +19,7 @@
 
 		// configurable
 		"paths": {
-			"@rbxts/roact-reflex": ["../../src"],
+			"@rbxts/react-reflex": ["../../src"],
 		},
 		"rootDirs": [
 			"./client",

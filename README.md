@@ -1,9 +1,9 @@
 <h1 align="center">
-	<a href="https://www.npmjs.com/package/@rbxts/roact-reflex">
+	<a href="https://www.npmjs.com/package/@rbxts/react-reflex">
 		<img src="public/logo.png" alt="Reflex" width="200" />
 	</a>
 	<br />
-	<b>Reflex for Roact</b>
+	<b>React Reflex</b>
 </h1>
 
 <div align="center">
@@ -23,7 +23,7 @@
 
 **Reflex** is a simple state container inspired by [Rodux](https://github.com/roblox/rodux) and [Silo](https://github.com/sleitnick/rbxts-silo), designed to be an all-in-one solution for managing and reacting to state in Roblox games.
 
-This package provides Reflex bindings for Roact using [`@rbxts/roact-hooked`](https://npmjs.com/package/@rbxts/roact-hooked).
+This package provides Reflex bindings for React using [`@rbxts/react-ts`](https://npmjs.com/package/@rbxts/react-ts).
 
 See the full documentation for Reflex [here](https://github.com/littensy/reflex).
 
@@ -32,18 +32,18 @@ See the full documentation for Reflex [here](https://github.com/littensy/reflex)
 ## 📦 Installation
 
 ```console
-$ npm install @rbxts/roact-reflex
+$ npm install @rbxts/react-reflex
 ```
 
 ```console
-$ pnpm add @rbxts/roact-reflex
+$ pnpm add @rbxts/react-reflex
 ```
 
 &nbsp;
 
 ## 📚 Usage
 
-Reflex offers support for [`@rbxts/roact-hooked`](https://npmjs.com/package/@rbxts/roact-hooked) with [`@rbxts/roact-reflex`](https://npmjs.com/package/@rbxts/roact-reflex). Using roact-reflex hooks requires setting up a `ReflexProvider` at the root of your Roact tree.
+Reflex offers support for [`@rbxts/react-ts`](https://npmjs.com/package/@rbxts/react-ts) with [`@rbxts/react-reflex`](https://npmjs.com/package/@rbxts/react-reflex). Using react-reflex hooks requires setting up a `ReflexProvider` at the root of your Roact tree.
 
 If you don't want to use generics to get the Producer type you want, Reflex exports the `UseSelectorHook` and `UseProducerHook` types to make it easier:
 
