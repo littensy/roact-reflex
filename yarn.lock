@@ -151,10 +151,10 @@
     "@rbxts/react-roblox" "^0.1.0"
     "@rbxts/shared-internal" "^0.2.0"
 
-"@rbxts/roact@npm:@rbxts/react-ts":
-  version "0.6.0"
-  resolved "https://registry.yarnpkg.com/@rbxts/react-ts/-/react-ts-0.6.0.tgz#cbe4f3ad5d11bb04a3a052d673fd53973a73981c"
-  integrity sha512-HvU8/4kU9tqscB1ebqtagivfTkAwqTKnb6SHwblElJ4IAAZh9XfIQbriwgGRWrxQko86zzwVpRRjqDM2lQXi9Q==
+"@rbxts/roact@npm:@rbxts/react-ts@*":
+  version "0.7.0"
+  resolved "https://registry.yarnpkg.com/@rbxts/react-ts/-/react-ts-0.7.0.tgz#fcb3bafd4a68bd880ceeacfb39b36504ceddd6f7"
+  integrity sha512-rV+6Q9U9NinxYXDJBDbcrw1zATihCL+V9zLCa8e67EZxrkR8i5xAZa83v+d2JuZZLSAInB9HXYyBQjlFv9FRkw==
   dependencies:
     "@rbxts/react-internal" "^0.2.1"
     "@rbxts/roact-compat-internal" "^0.3.0"
