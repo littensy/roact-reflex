@@ -27,6 +27,7 @@
 	"types": "out/index.d.ts",
 	"files": [
 		"out",
+		"!test",
 		"!**/*.tsbuildinfo"
 	],
 	"publishConfig": {
@@ -50,5 +51,6 @@
 	"peerDependencies": {
 		"@rbxts/reflex": "^3.0.0",
 		"@rbxts/roact": "*"
-	}
+	},
+	"packageManager": "yarn@3.6.1"
 }
