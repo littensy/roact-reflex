@@ -1,6 +1,5 @@
 import { Producer } from "@rbxts/reflex";
-import Roact from "@rbxts/roact";
-import { useMemo, withHooks } from "@rbxts/roact-hooked";
+import Roact, { useMemo } from "@rbxts/roact";
 import ReflexContext from "./ReflexContext";
 
 interface ReflexProviderProps<S> extends Roact.PropsWithChildren {
@@ -16,7 +15,11 @@ interface ReflexProviderProps<S> extends Roact.PropsWithChildren {
 	initialState?: Partial<S>;
 }
 
-function ReflexProvider<S>({ producer, initialState, [Roact.Children]: children }: ReflexProviderProps<S>) {
+export default function ReflexProvider<S>({
+	producer,
+	initialState,
+	[Roact.Children]: children,
+}: ReflexProviderProps<S>) {
 	useMemo(() => {
 		// Run in useMemo to set the state before rendering children
 		if (initialState === undefined) {
@@ -31,5 +34,3 @@ function ReflexProvider<S>({ producer, initialState, [Roact.Children]: children 
 
 	return <ReflexContext.Provider value={producer}>{children}</ReflexContext.Provider>;
 }
-
-export default withHooks(ReflexProvider);

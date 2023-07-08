@@ -17,11 +17,8 @@ jobs:
       - name: GitHub Checkout
         uses: actions/checkout@v3
 
-      - name: Setup PNPM
-        uses: pnpm/action-setup@v2.2.4
-        with:
-          version: 7.25.1
-          run_install: true
+      - name: Setup NPM
+        uses: bahmutov/npm-install@v1
 
       - name: Run ESLint
         run: pnpm eslint src
