@@ -21,7 +21,7 @@ jobs:
         uses: bahmutov/npm-install@v1
 
       - name: Run ESLint
-        run: pnpm eslint src
+        run: yarn eslint src
 
       - name: Build & Compile
-        run: pnpm build --verbose
+        run: yarn build --verbose
