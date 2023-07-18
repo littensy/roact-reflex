@@ -136,10 +136,10 @@
     "@rbxts/scheduler-internal" "^0.2.0"
     "@rbxts/shared-internal" "^0.2.0"
 
-"@rbxts/reflex@^3.4.0":
-  version "3.4.0"
-  resolved "https://registry.yarnpkg.com/@rbxts/reflex/-/reflex-3.4.0.tgz#05a49344eaf1adefa11b544b3a6240570806b880"
-  integrity sha512-6eMZg9jW7xecqLh19fUQ2RUoyqPZMEkmlZXkPMyZXllvKHD7E20F5QJtkT/TGcyrhTx3vQNutHuZNoBhxxngWA==
+"@rbxts/reflex@^4.0.0":
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/@rbxts/reflex/-/reflex-4.1.0.tgz#7dfef4911cb266222f7996211c0814493b3bb6ef"
+  integrity sha512-Doz0FG8YDlv8kW8BZ+l6d9qK7mcwfTAXoKZ7StOXOHGld5m9y1CRund4SVFqbMUDuoVZCDF4M/CAt/6dtCcTyg==
 
 "@rbxts/roact-compat-internal@^0.3.0":
   version "0.3.0"
