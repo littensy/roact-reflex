@@ -34,7 +34,7 @@
 	},
 	"devDependencies": {
 		"@rbxts/compiler-types": "2.1.0-types.1",
-		"@rbxts/reflex": "^3.4.0",
+		"@rbxts/reflex": "^4.1.0",
 		"@rbxts/roact": "1.4.4-ts.0",
 		"@rbxts/roact-hooked": "^2.6.0",
 		"@rbxts/types": "^1.0.703",
@@ -49,7 +49,7 @@
 		"typescript": "^5.1.6"
 	},
 	"peerDependencies": {
-		"@rbxts/reflex": "^3.0.0",
+		"@rbxts/reflex": "^4.1.0",
 		"@rbxts/roact": "1.4.4-ts.0",
 		"@rbxts/roact-hooked": "^2.3.3"
 	}

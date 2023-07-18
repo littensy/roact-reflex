@@ -9,8 +9,8 @@ devDependencies:
     specifier: 2.1.0-types.1
     version: 2.1.0-types.1
   '@rbxts/reflex':
-    specifier: ^3.4.0
-    version: 3.4.0
+    specifier: ^4.1.0
+    version: 4.1.0
   '@rbxts/roact':
     specifier: 1.4.4-ts.0
     version: 1.4.4-ts.0
@@ -137,8 +137,8 @@ packages:
     resolution: {integrity: sha512-+ztwutzuNivWsgsERiC7n5il4C5gfJUuGJUmXYRq8FwY4ye3aupRi9RocmyAHq6255sO7z+RM61AVbqx3llsLQ==}
     dev: true
 
-  /@rbxts/reflex@3.4.0:
-    resolution: {integrity: sha512-6eMZg9jW7xecqLh19fUQ2RUoyqPZMEkmlZXkPMyZXllvKHD7E20F5QJtkT/TGcyrhTx3vQNutHuZNoBhxxngWA==}
+  /@rbxts/reflex@4.1.0:
+    resolution: {integrity: sha512-Doz0FG8YDlv8kW8BZ+l6d9qK7mcwfTAXoKZ7StOXOHGld5m9y1CRund4SVFqbMUDuoVZCDF4M/CAt/6dtCcTyg==}
     dev: true
 
   /@rbxts/roact-hooked@2.6.0(@rbxts/roact@1.4.4-ts.0):
