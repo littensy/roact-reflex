@@ -27,6 +27,9 @@ This package provides Reflex bindings for Roact using [`@rbxts/roact-hooked`](ht
 
 See the full documentation for Reflex [here](https://github.com/littensy/reflex).
 
+> [!IMPORTANT]
+> This repository has been superseded by [littensy/react-reflex](https://github.com/littensy/react-reflex).
+
 &nbsp;
 
 ## 📦 Installation
