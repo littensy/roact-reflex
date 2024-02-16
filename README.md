@@ -27,6 +27,9 @@ This package provides Reflex bindings for React using [`@rbxts/react-ts`](https:
 
 See the full documentation for Reflex [here](https://github.com/littensy/reflex).
 
+> [!IMPORTANT]
+> This repository has been superseded by [littensy/react-reflex](https://github.com/littensy/react-reflex).
+
 &nbsp;
 
 ## 📦 Installation
